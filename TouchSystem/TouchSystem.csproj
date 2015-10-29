@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1734E2AD-8D45-475F-9F32-BD43B32AE158}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TouchSystem</RootNamespace>
+    <AssemblyName>TouchSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NetSpell.SpellChecker">
+      <HintPath>..\WinHtmlEditor\bin\Debug\NetSpell.SpellChecker.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DepartSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartSet.Designer.cs">
+      <DependentUpon>DepartSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EXIT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXIT.Designer.cs">
+      <DependentUpon>EXIT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlashPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlashPlay.Designer.cs">
+      <DependentUpon>FlashPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LCFB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LCFB.Designer.cs">
+      <DependentUpon>LCFB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewMainPage.Designer.cs">
+      <DependentUpon>NewMainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="News.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="News.Designer.cs">
+      <DependentUpon>News.cs</DependentUpon>
+    </Compile>
+    <Compile Include="News2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="News2.Designer.cs">
+      <DependentUpon>News2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewsPanel.Designer.cs">
+      <DependentUpon>NewsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SchoolFellow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchoolFellow.Designer.cs">
+      <DependentUpon>SchoolFellow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchoolProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchoolProfile.Designer.cs">
+      <DependentUpon>SchoolProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SP-CXTD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP-CXTD.Designer.cs">
+      <DependentUpon>SP-CXTD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SP-JCRC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP-JCRC.Designer.cs">
+      <DependentUpon>SP-JCRC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SP-SZGK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP-SZGK.Designer.cs">
+      <DependentUpon>SP-SZGK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeachersTtroop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeachersTtroop.Designer.cs">
+      <DependentUpon>TeachersTtroop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XYFG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XYFG.Designer.cs">
+      <DependentUpon>XYFG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XYJZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XYJZ.Designer.cs">
+      <DependentUpon>XYJZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XYZJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XYZJ.Designer.cs">
+      <DependentUpon>XYZJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZMXY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZMXY.Designer.cs">
+      <DependentUpon>ZMXY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZZJG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZZJG.Designer.cs">
+      <DependentUpon>ZZJG.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DepartSet.resx">
+      <DependentUpon>DepartSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXIT.resx">
+      <DependentUpon>EXIT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlashPlay.resx">
+      <DependentUpon>FlashPlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LCFB.resx">
+      <DependentUpon>LCFB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMainPage.resx">
+      <DependentUpon>NewMainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="News.resx">
+      <DependentUpon>News.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="News2.resx">
+      <DependentUpon>News2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsPanel.resx">
+      <DependentUpon>NewsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchoolFellow.resx">
+      <DependentUpon>SchoolFellow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchoolProfile.resx">
+      <DependentUpon>SchoolProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP-CXTD.resx">
+      <DependentUpon>SP-CXTD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP-JCRC.resx">
+      <DependentUpon>SP-JCRC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP-SZGK.resx">
+      <DependentUpon>SP-SZGK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachersTtroop.resx">
+      <DependentUpon>TeachersTtroop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XYFG.resx">
+      <DependentUpon>XYFG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XYJZ.resx">
+      <DependentUpon>XYJZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XYZJ.resx">
+      <DependentUpon>XYZJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZMXY.resx">
+      <DependentUpon>ZMXY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZZJG.resx">
+      <DependentUpon>ZZJG.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\FenBuTu\A区1楼.png" />
+    <None Include="Resources\知名校友.png" />
+    <None Include="Resources\4.jpg" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\3.jpg" />
+    <Content Include="Resources\A区1楼.png" />
+    <Content Include="Resources\A区2楼.png" />
+    <Content Include="Resources\A区3楼.png" />
+    <Content Include="Resources\A区4楼.png" />
+    <Content Include="Resources\A区5楼.png" />
+    <Content Include="Resources\B区1楼.png" />
+    <Content Include="Resources\B区2楼.png" />
+    <Content Include="Resources\B区3楼.png" />
+    <Content Include="Resources\B区4楼.png" />
+    <Content Include="Resources\B区5楼.png" />
+    <None Include="Resources\组织结构.png" />
+    <None Include="Resources\人才.png" />
+    <None Include="Resources\专家.png" />
+    <None Include="Resources\学者.png" />
+    <None Include="Resources\名师.png" />
+    <None Include="Resources\学者1.png" />
+    <None Include="Resources\名师1.png" />
+    <None Include="Resources\人才1.png" />
+    <None Include="Resources\专家1.png" />
+    <None Include="Resources\创新团队背景.png" />
+    <None Include="Resources\ZhiMingPage1.png" />
+    <None Include="Resources\ZhiMingPage2.png" />
+    <None Include="Resources\学校简介.png" />
+    <None Include="Resources\学校简介1.png" />
+    <None Include="Resources\历史沿革表.jpg" />
+    <None Include="Resources\校园规划.png" />
+    <None Include="Resources\校园规划_.png" />
+    <Content Include="swf\Newflash2804.swf" />
+    <None Include="bin\Debug\Button\Bg.png" />
+    <None Include="bin\Debug\Button\A1.png" />
+    <None Include="bin\Debug\Button\A2.png" />
+    <None Include="bin\Debug\Button\A3.png" />
+    <None Include="bin\Debug\Button\A4.png" />
+    <None Include="bin\Debug\Button\A5.png" />
+    <None Include="bin\Debug\Button\B1.png" />
+    <None Include="bin\Debug\Button\B2.png" />
+    <None Include="bin\Debug\Button\B3.png" />
+    <None Include="bin\Debug\Button\B4.png" />
+    <None Include="bin\Debug\Button\B5.png" />
+    <None Include="bin\Debug\Button\BgFocus.png" />
+    <Content Include="button\专家.png" />
+    <Content Include="button\专家_副本.png" />
+    <Content Include="button\人才.png" />
+    <Content Include="button\人才_副本.png" />
+    <Content Include="button\历史沿革.png" />
+    <Content Include="button\历史沿革_副本.png" />
+    <Content Include="button\名师.png" />
+    <Content Include="button\名师_副本.png" />
+    <Content Include="button\学校概况.png" />
+    <Content Include="button\学校概况_副本.png" />
+    <Content Include="button\学校简介.png" />
+    <Content Include="button\学校简介_副本.png" />
+    <Content Include="button\学校领导.png" />
+    <Content Include="button\学校领导_副本.png" />
+    <Content Include="button\学者.png" />
+    <Content Include="button\学者_副本.png" />
+    <Content Include="button\学院设置-返回.png" />
+    <Content Include="button\学院设置-返回_副本.png" />
+    <Content Include="button\师资概况-返回.png" />
+    <Content Include="button\师资概况-返回副本.png" />
+    <Content Include="button\师资队伍.png" />
+    <Content Include="button\师资队伍_副本.png" />
+    <Content Include="button\校友之家.png" />
+    <Content Include="button\校友之家_副本.png" />
+    <Content Include="button\校园风光.png" />
+    <Content Include="button\校园风光_副本.png" />
+    <Content Include="button\楼层分布.png" />
+    <Content Include="button\楼层分布_副本.png" />
+    <Content Include="button\组织机构.png" />
+    <Content Include="button\组织机构_副本.png" />
+    <Content Include="button\返回.png" />
+    <Content Include="button\返回_副本.png" />
+    <Content Include="button\院系设置.png" />
+    <Content Include="button\院系设置_副本.png" />
+    <Content Include="image\NewShouYe.png" />
+    <Content Include="image\创新团队背景.png" />
+    <Content Include="image\学校概况.png" />
+    <Content Include="image\学校概况_副本.png" />
+    <Content Include="image\学校领导背景.png" />
+    <Content Include="image\历史沿革.png" />
+    <Content Include="image\历史沿革1.png" />
+    <Content Include="image\历史沿革2.png" />
+    <Content Include="image\历史沿革3.png" />
+    <Content Include="image\历史沿革4.png" />
+    <Content Include="image\历史沿革5.png" />
+    <Content Include="image\历史沿革6.png" />
+    <Content Include="image\历史沿革透明.png" />
+    <Content Include="image\师资概况背景.png" />
+    <Content Include="image\杰出人才背景.png" />
+    <Content Include="image\校园简介背景设计.png" />
+    <Content Include="image\组织结构.png" />
+    <Content Include="image\蓝色首页.png" />
+    <Content Include="image\首页背景.png" />
+    <Content Include="image\首页背景1.png" />
+    <None Include="Resources\NewShouYe.png" />
+    <None Include="Resources\New师资队伍.png" />
+    <None Include="Resources\校园风光1.png" />
+    <None Include="Resources\校园风光.png" />
+    <None Include="Resources\校园风光2.png" />
+    <None Include="Resources\校友之家.png" />
+    <None Include="Resources\New校友捐赠3.png" />
+    <None Include="Resources\楼层分布.png" />
+    <None Include="Resources\NewLCFB.png" />
+    <None Include="Resources\校园风光21.png" />
+    <Content Include="swf\111.swf" />
+    <Content Include="swf\112.swf" />
+    <Content Include="swf\flash1867.swf" />
+    <Content Include="swf\flash2804.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinHtmlEditor\WinHtmlEditor.csproj">
+      <Project>{1D1EF0A4-1D49-4D42-9295-E3B28359389A}</Project>
+      <Name>WinHtmlEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XBNews\ClassLibrary\ClassLibrary.csproj">
+      <Project>{3007ac62-edc2-4d7e-be74-a34d02a04764}</Project>
+      <Name>ClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XBNews\XBNews\XBNews.csproj">
+      <Project>{da509d8a-c14f-45b7-bdd1-bb0c8019ed49}</Project>
+      <Name>XBNews</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
